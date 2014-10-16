@@ -8,44 +8,45 @@ namespace lab2._3
 {
     public abstract class Shape
     {
+        // Skapar fält.
+        double _length;
+        double _width;
 
-double _length;
-double _width;
-
-public abstract double Area
-{
-    get; 
-}
-
-
-
-public double Length
-{
+        // Hämtar in metoden "area" ifrån klasserna "Ellipse" & "Rectangle". Men enbart en klass (beroende på vilken form användaren väljer).
+        public abstract double Area
+        {
+            get; 
+        }
 
 
-  get 
-  { 
-      return _length; 
-  }
 
-  set 
-  { 
-
-      
-      if (value < 0)
-      {
-          throw new ArgumentException();
-      }
-      _length = value;
-  }
+        public double Length
+        {
 
 
-}
+          get 
+          { 
+              return _length; // Returnerar längd.
+          }
 
- 
- 
-    
+          set 
+          { 
 
+              // Om värdet är mindre än noll så "kastas" ett nytt undantag,
+              if (value < 0)
+              {
+                  throw new ArgumentException();
+              }
+              _length = value;
+          }
+
+
+        }
+
+
+
+
+// Hämtar in metoden "perimeter" ifrån klasserna "Ellipse" & "Rectangle". Men enbart en klass (beroende på vilken form användaren väljer).
 public abstract double Perimeter 
 {
     get; 
@@ -60,13 +61,13 @@ public double Width
 
     get
     {
-        return _width;
+        return _width; // Returnerar bredd.
     }
 
     set
     {
 
-        
+        // Om värdet är mindre än noll så "kastas" ett nytt undantag,
         if (value < 0)
         {
             throw new ArgumentException();
@@ -78,7 +79,7 @@ public double Width
 
 }
 
-protected Shape (double length, double width)
+protected Shape (double length, double width) // "Protected metod" med fält. Protected är skyddad ifrån andra klasser.
 {
 
     Length = length;
@@ -86,6 +87,7 @@ protected Shape (double length, double width)
 
 }
 
+// Ny metod som skriver ut text + att den läser in vad användaren skriver in för värden i klassen "program" där vi kallar på den.
 public override string ToString()
 
 {

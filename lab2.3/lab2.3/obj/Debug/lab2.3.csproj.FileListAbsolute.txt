@@ -4,3 +4,9 @@ P:\C#\Labb 2.3\Lab 2.3\lab2.3\lab2.3\bin\Debug\lab2.3.exe
 P:\C#\Labb 2.3\Lab 2.3\lab2.3\lab2.3\bin\Debug\lab2.3.pdb
 P:\C#\Labb 2.3\Lab 2.3\lab2.3\lab2.3\obj\Debug\lab2.3.exe
 P:\C#\Labb 2.3\Lab 2.3\lab2.3\lab2.3\obj\Debug\lab2.3.pdb
+P:\C#\Labb 2.3\Lab 2.3\1DV450_ms223uh-2-3-Geometriska-Figurer\lab2.3\lab2.3\bin\Debug\lab2.3.exe.config
+P:\C#\Labb 2.3\Lab 2.3\1DV450_ms223uh-2-3-Geometriska-Figurer\lab2.3\lab2.3\obj\Debug\lab2.3.exe
+P:\C#\Labb 2.3\Lab 2.3\1DV450_ms223uh-2-3-Geometriska-Figurer\lab2.3\lab2.3\obj\Debug\lab2.3.pdb
+P:\C#\Labb 2.3\Lab 2.3\1DV450_ms223uh-2-3-Geometriska-Figurer\lab2.3\lab2.3\bin\Debug\lab2.3.exe
+P:\C#\Labb 2.3\Lab 2.3\1DV450_ms223uh-2-3-Geometriska-Figurer\lab2.3\lab2.3\bin\Debug\lab2.3.pdb
+P:\C#\Labb 2.3\Lab 2.3\1DV450_ms223uh-2-3-Geometriska-Figurer\lab2.3\lab2.3\obj\Debug\lab2.3.csprojResolveAssemblyReference.cache

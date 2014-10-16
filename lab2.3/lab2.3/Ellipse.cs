@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab2._3
 {
+
     class Ellipse : Shape
     {
         public Ellipse(double length, double width): base(length, width)
@@ -13,12 +14,12 @@ namespace lab2._3
 
         }               
 
-        public override double Area
+        public override double Area // Uträkning för area.
         {
             get { return Math.PI * (Length / 2) * (Width / 2); }
         }           
 
-        public override double Perimeter
+        public override double Perimeter  // Uträkning för omkrets.
         {
 
             get 

@@ -15,13 +15,13 @@ namespace lab2._3
         }
 
 
-        public override double Area
+        public override double Area  // Uträkning för area.
         {
             get { return Length * Width; }
         }
 
         
-        public override double Perimeter
+        public override double Perimeter  // Uträkning för omkrets.
         {
             get { return (2 * Length) + (2 * Width); }
         }
